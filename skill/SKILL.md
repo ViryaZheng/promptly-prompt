@@ -1,10 +1,10 @@
 ---
 name: promptly-prompt
 description: |
-  Forces two things on every non-trivial request: restate the user's intent
-  before answering, and take a super-dimensional view — name the domain,
-  search for existing methods and prior art, bring specialist knowledge in
-  before improvising.
+  Forces discipline on every non-trivial request: restate the user's intent,
+  diagnose the root cause, name the domain and reuse existing mature solutions
+  before improvising, then deliver one chosen answer instead of a menu of
+  options.
 ---
 
 # promptly-prompt

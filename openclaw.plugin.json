@@ -1,0 +1,12 @@
+{
+  "name": "promptly-prompt",
+  "version": "1.2.0",
+  "openclaw": {
+    "compat": {
+      "pluginApi": ">=2026.3.24-beta.2"
+    },
+    "build": {
+      "openclawVersion": "2026.3.24-beta.2"
+    }
+  }
+}

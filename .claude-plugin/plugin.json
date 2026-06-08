@@ -1,6 +1,6 @@
 {
   "name": "promptly-prompt",
-  "description": "Forces AI to understand before executing. Two disciplines: restate-and-pause-if-needed, super-dimensional view (search the domain before solving from memory).",
+  "description": "Forces AI to restate intent, diagnose the root cause, name the domain and reuse existing mature solutions, then deliver one chosen answer instead of a menu of options.",
   "version": "1.2.0",
   "author": {
     "name": "Recomby AI",

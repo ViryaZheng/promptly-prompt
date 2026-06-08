@@ -1,6 +1,6 @@
 {
   "name": "promptly-prompt",
-  "description": "Forces AI to understand before executing",
+  "description": "Forces AI to diagnose root cause and deliver one chosen answer, not a menu",
   "owner": {
     "name": "Recomby AI",
     "email": "hello@recomby.ai"
@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "promptly-prompt",
-      "description": "Two disciplines: restate-and-pause-if-needed, super-dimensional view (search the domain before solving from memory)",
+      "description": "Restate intent, diagnose the root cause, reuse the domain's mature solutions, deliver one chosen answer instead of a menu",
       "version": "1.2.0",
       "source": "./",
       "author": {
