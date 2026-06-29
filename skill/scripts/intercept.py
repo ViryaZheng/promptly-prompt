@@ -2,10 +2,9 @@
 """promptly-prompt hook: complexity judge + context injection.
 
 Fires on every UserPromptSubmit. Simple prompts pass through.
-Complex prompts inject the promptly-prompt discipline:
-  1. AI cognition baseline
-  2. Deep requirement understanding (including implicit needs)
-  3. Search for existing methods/frameworks before acting
+Complex prompts (score >= 3) inject the full discipline, both parts at once:
+  1. Restate the prompt and state your understanding to align with the user
+  2. Diagnose the root cause, search the domain's mature practices, then proceed
 
 No external dependencies. Python stdlib only.
 """
@@ -82,8 +81,8 @@ def score(prompt: str) -> int:
 
 
 INJECTION = (
-    "复述 prompt，诊断问题根源，点明所属领域、看领域里已有的成熟做法，"
-    "自己挑最合理的一个交付——别列选项给用户，那是认知负担。"
+    "复述 prompt 说出自己理解来和用户对齐，"
+    "然后是诊断问题来源、搜索领域成熟做法再处理。"
 )
 
 
