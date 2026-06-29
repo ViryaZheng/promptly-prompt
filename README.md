@@ -24,14 +24,14 @@ When your brain is foggy, you write bad prompts, get bad answers, and spiral. Th
 In your terminal:
 
 ```bash
-claude plugin marketplace add recomby-ai/promptly-prompt
+claude plugin marketplace add ViryaZheng/promptly-prompt
 claude plugin install promptly-prompt@promptly-prompt
 ```
 
 Or inside a Claude Code session, prefix with `!`:
 
 ```
-! claude plugin marketplace add recomby-ai/promptly-prompt
+! claude plugin marketplace add ViryaZheng/promptly-prompt
 ! claude plugin install promptly-prompt@promptly-prompt
 ```
 
