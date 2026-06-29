@@ -3,8 +3,8 @@
   "description": "Forces AI to restate intent to align with the user, then diagnose the root cause and reuse the domain's mature, established practices before proceeding.",
   "version": "1.3.0",
   "author": {
-    "name": "Recomby AI",
-    "email": "hello@recomby.ai"
+    "name": "Yucheng Zheng",
+    "email": "yuchen050504@gmail.com"
   },
   "repository": "https://github.com/ViryaZheng/promptly-prompt",
   "license": "MIT",

@@ -2,8 +2,8 @@
   "name": "promptly-prompt",
   "description": "Forces AI to restate intent to align, then diagnose root cause and reuse the domain's mature practices",
   "owner": {
-    "name": "Recomby AI",
-    "email": "hello@recomby.ai"
+    "name": "Yucheng Zheng",
+    "email": "yuchen050504@gmail.com"
   },
   "plugins": [
     {
@@ -12,8 +12,8 @@
       "version": "1.3.0",
       "source": "./",
       "author": {
-        "name": "Recomby AI",
-        "email": "hello@recomby.ai"
+        "name": "Yucheng Zheng",
+        "email": "yuchen050504@gmail.com"
       }
     }
   ]
