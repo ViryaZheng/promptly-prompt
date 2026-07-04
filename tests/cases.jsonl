@@ -1,0 +1,23 @@
+{"name": "simple-command", "prompt": "git status", "expect": null}
+{"name": "simple-read", "prompt": "read file.py", "expect": null}
+{"name": "slash-command", "prompt": "/commit", "expect": null}
+{"name": "conversational-continue", "prompt": "continue", "expect": null}
+{"name": "conversational-yes-zh", "prompt": "好的", "expect": null}
+{"name": "conversational-retry-zh", "prompt": "再试一次", "expect": null}
+{"name": "clear-imperative-with-target", "prompt": "fix the typo in README line 12", "expect": null}
+{"name": "clear-run-tests-zh", "prompt": "跑一下测试", "expect": null}
+{"name": "vague-verb-no-criteria-zh", "prompt": "帮我优化一下登录那块", "expect": "zh"}
+{"name": "vague-verb-no-criteria-en", "prompt": "make it better please", "expect": "en"}
+{"name": "vague-cleanup-en", "prompt": "clean up the code a bit", "expect": "en"}
+{"name": "vague-look-at-it-zh", "prompt": "帮我看看这个为什么不行", "expect": "zh"}
+{"name": "vague-beautify-zh", "prompt": "把这个页面美化一下", "expect": "zh"}
+{"name": "rambling-payment-zh", "prompt": "我想做个支付重试系统，先要幂等键，然后指数退避，可能还要死信队列，数据库那边不太确定怎么处理", "expect": "zh"}
+{"name": "rambling-payment-en", "prompt": "I want to build a payment retry system, first idempotency keys, then exponential backoff, maybe a dead letter queue too, and I'm not sure how to handle the database side", "expect": "en"}
+{"name": "vague-verb-with-anchor-passes-zh", "prompt": "帮我看看 build 为什么失败，日志：```error TS2345: Argument of type 'string'```", "expect": null}
+{"name": "optimize-with-criteria-passes-en", "prompt": "optimize the query in reports/query.sql, target is under 10ms on the orders table", "expect": null}
+{"name": "clear-long-spec-en", "prompt": "Refactor src/api/users.ts: extract the request validation into a new file validators.ts. Requirements: 1. all existing tests in tests/api must pass unchanged 2. no behavior change to the public API 3. keep the zod schemas. The error I currently see is TypeError: cannot read properties of undefined.", "expect": null}
+{"name": "clear-long-spec-zh", "prompt": "把 src/auth/login.py 里的 validate_token() 拆成两个函数：一个只做签名校验，一个做过期检查。要求是：1. 现有 tests/test_auth.py 全部通过 2. 对外接口不变 3. 不引入新依赖。报错信息：jwt.exceptions.InvalidSignatureError", "expect": null}
+{"name": "vague-improve-zh", "prompt": "这个项目帮我改进完善一下吧", "expect": "zh"}
+{"name": "vague-polish-en", "prompt": "can you polish this up and improve the overall structure somehow", "expect": "en"}
+{"name": "terse-deep-accepted-miss", "prompt": "解释一下 monad", "expect": null}
+{"name": "empty-ish", "prompt": "ok", "expect": null}

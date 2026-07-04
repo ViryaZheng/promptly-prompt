@@ -1,14 +1,14 @@
 {
   "name": "promptly-prompt",
-  "description": "Forces AI to restate intent to align, then diagnose root cause and reuse the domain's mature practices",
+  "description": "Clarity gate: intercepts unclear prompts, forces restate-to-align, then diagnose root cause and reuse the domain's mature practices",
   "owner": {
     "name": "Yucheng Zheng"
   },
   "plugins": [
     {
       "name": "promptly-prompt",
-      "description": "Restate intent to align with the user, then diagnose the root cause and reuse the domain's mature, established practices before proceeding",
-      "version": "1.3.0",
+      "description": "Intercepts unclear prompts and forces restate-to-align with the user, then diagnose the root cause and reuse the domain's mature, established practices before proceeding",
+      "version": "1.4.0",
       "source": "./",
       "author": {
         "name": "Yucheng Zheng"
